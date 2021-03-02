@@ -1,0 +1,6 @@
+services:
+  myubuntu:
+    build: ./
+    volumes:
+      - ./:/mnt
+    tty: true
