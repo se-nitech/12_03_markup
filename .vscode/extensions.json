@@ -9,5 +9,6 @@
         "davidanson.vscode-markdownlint",
         "shd101wyy.markdown-preview-enhanced",
         "lextudio.restructuredtext",
+        "tht13.html-preview-vscode",
     ]
 }
