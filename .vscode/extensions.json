@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "ms-ceintl.vscode-language-pack-ja",
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "visualstudioexptteam.vscodeintellicode",
+        "mhutchie.git-graph",
+        "yzhang.markdown-all-in-one",
+        "davidanson.vscode-markdownlint",
+        "shd101wyy.markdown-preview-enhanced",
+        "lextudio.restructuredtext",
+    ]
+}
