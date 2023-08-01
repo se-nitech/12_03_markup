@@ -10,6 +10,6 @@ RUN pip install sphinx sphinx-rtd-theme
 RUN apt -y install diffutils patch make doxygen
 
 RUN apt -y install pandoc gcc \
-    && pip install snooty-lextudio rstcheck ipykernel esbonio
+    && pip install rstcheck ipykernel esbonio
 
 WORKDIR /mnt
