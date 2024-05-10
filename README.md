@@ -26,15 +26,13 @@ docker-compose down
 docker-compose down --rmi all --volumes --remove-orphans
 ```
 
-
-
-# マークアップ言語とは
+## マークアップ言語とは
 
 - プレーンテキストで構造化された文書を作成する
   - wikipediaの定義：[文書に注釈を付けるための方法，本文のテキストとは構文的に区別できる](https://en.wikipedia.org/wiki/Markup_language)
   - 例：HTML（HyperText **Markup Language**）
   - 多数の言語がある
-    - https://en.wikipedia.org/wiki/List_of_markup_languages
+    - <https://en.wikipedia.org/wiki/List_of_markup_languages>
 - 用途
   - 少しフォーマットをつけて手軽にドキュメントを書きたい
     - コメントに最適
