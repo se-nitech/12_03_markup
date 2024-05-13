@@ -7,8 +7,8 @@ RSTのサンプル
 
 .. code-block:: bash
 
-  docker-compose build
-  docker-compose up -d
+  docker compose build
+  docker compose up -d
 
 
 フォーマット変換
@@ -16,8 +16,8 @@ RSTのサンプル
 
 .. code-block:: bash
 
-  docker-compose exec mypython pandoc -f markdown -t html -o md_to_html.html markdown.md
-  docker-compose exec mypython pandoc -f markdown -t docx -o md_to_docx.docx markdown.md
+  docker compose exec mypython pandoc -f markdown -t html -o md_to_html.html markdown.md
+  docker compose exec mypython pandoc -f markdown -t docx -o md_to_docx.docx markdown.md
 
 
 
@@ -26,14 +26,12 @@ RSTのサンプル
 
 .. code-block:: bash
 
-  docker-compose down
+  docker compose down
 
 
 または
 
-.. code-block:: bash
 
-  docker-compose down --rmi all --volumes --remove-orphans
 
 
 
@@ -71,7 +69,7 @@ RSTの文法
     def myfunc(a, b, c):
         a = b + c
         print(a)
-    
+
 
 
 数式
@@ -82,5 +80,5 @@ RSTの文法
 .. math::
 
     y = \int_a^b f(x, t) dt
-    
+
 も対応しています．

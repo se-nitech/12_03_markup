@@ -3,27 +3,21 @@
 起動
 
 ```bash
-docker-compose build
-docker-compose up -d
+docker compose build
+docker compose up -d
 ```
 
 フォーマット変換
 
 ```bash
-docker-compose exec mypython pandoc -f markdown -t html -o md_to_html.html markdown.md
-docker-compose exec mypython pandoc -f markdown -t docx -o md_to_docx.docx markdown.md
+docker compose exec mypython pandoc -f markdown -t html -o md_to_html.html markdown.md
+docker compose exec mypython pandoc -f markdown -t docx -o md_to_docx.docx markdown.md
 ```
 
 停止
 
 ```bash
-docker-compose down
-```
-
-または
-
-```bash
-docker-compose down --rmi all --volumes --remove-orphans
+docker compose down
 ```
 
 ## マークアップ言語とは
